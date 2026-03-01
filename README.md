@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-A tic tac toe game with cute and aesthetic girly vibe
+A tic tac toe game with cute and aesthetic girly vibe <br>
 A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript.  
 
 ## Features
