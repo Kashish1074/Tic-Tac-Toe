@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    font-family:'Baloo 2', cursive;
+    font-style: inherit;
+    font-size: 5rem;
+    color: #590d22; /* deep rose */
+    text-shadow: 2px 2px 6px rgba(89, 13, 34, 0.4)
+}
+body {
+  background-color: #ffb3c1;
+  text-align: center;
+  
+
+}
+
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffb3c1;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: #b14563;
+  background-color: #ffe5ec;
+}
+
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #590d22;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  font-family: 'Baloo 2', cursive;
+}
+
+button {
+  background-color: #ff758f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+  box-shadow: 
+    0 6px 12px rgba(89, 13, 34, 0.25);
+}
+
+button:active {
+  transform: translateY(5px);
+  box-shadow: 
+    0 4px 8px rgba(89, 13, 34, 0.25);
+}
+
+#reset-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 10px 18px rgba(89, 13, 34, 0.35);
+} 
+
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #590d22;;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  font-family: 'Baloo 2', cursive
+}
+#new-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 10px 18px rgba(89, 13, 34, 0.35);
+} 
+#msg {
+  color: #590d22;;
+  font-size: 5vmin;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
